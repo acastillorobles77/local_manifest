@@ -7,7 +7,7 @@
     <project path="vendor/xiaomi/vayu" name="acastillorobles77/android_vendor_xiaomi_vayu.git" remote="github" revision="arrow-12.0" />
 
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="acastillorobles77/hardware_xiaomi.git" remote="github" revision="twelve" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-19.1" />
 
 </manifest>
 
