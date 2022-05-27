@@ -9,7 +9,7 @@
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="twelve" />
     <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings.git" remote="github" revision="twelve" />
-    <project path="vendor/xiaomi/devicesettings" name="acastillorobles77/vendor_xiaomi_device_settings.git" remote="github" revision="12" />
+    <project path="vendor/xiaomi/devicesettings" name="sanjeevstunner/vendor_xiaomi_device_settings.git" remote="github" revision="12" />
 
 </manifest>
 
