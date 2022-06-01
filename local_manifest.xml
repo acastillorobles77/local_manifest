@@ -8,6 +8,7 @@
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="twelve" />
+    <project path="vendor/xiaomi/miuicamera" name="acastillorobles77/vendor_xiaomi_miuicamera.git" remote="github" revision="12" />
     
 </manifest>
 
