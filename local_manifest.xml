@@ -3,7 +3,7 @@
 
     <!-- Trees -->
     <project path="device/xiaomi/vayu" name="acastillorobles77/android_device_xiaomi_vayu.git" remote="github" revision="bliss-12.x" />
-    <project path="kernel/xiaomi/vayu" name="acastillorobles77/android_kernel_xiaomi_vayu_bliss.git" remote="github" revision="twelve" />
+    <project path="kernel/xiaomi/vayu" name="acastillorobles77/android_kernel_xiaomi_sm8150_crdroid.git" remote="github" revision="12.1" />
     <project path="vendor/xiaomi/vayu" name="acastillorobles77/android_vendor_xiaomi_vayu.git" remote="github" revision="arrow-12.0" />
 
     <!-- Addons -->
