@@ -9,5 +9,8 @@
     <!-- Addons -->
     <project path="hardware/xiaomi" name="acastillorobles77/hardware_xiaomi.git" remote="github" revision="twelve" />
 
+    <!-- Remove unnecessary apps -->
+    <remove-project name="BlissRoms/platform_packages_apps_BlissUpdater" />
+
 </manifest>
 
