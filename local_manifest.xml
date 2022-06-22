@@ -15,6 +15,7 @@
 
     <!-- Remove unnecessary apps -->
     <remove-project name="LineageOS/android_packages_apps_Updater" />
+    <remote-project name="LineageOS/android_packages_apps_Trebuchet" />
     
 </manifest>
 
