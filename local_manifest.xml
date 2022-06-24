@@ -13,9 +13,5 @@
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="twelve" />
     <project path="vendor/gapps" name="crdroidandroid/android_vendor_gapps.git" remote="gitlab2" revision="12.1" />
 
-    <!-- Replace some repos -->
-    <remove-project name="syberia-project/platform_vendor_syberia" />
-    <project path="vendor/syberia" name="acastillorobles77/platform_vendor_syberia.git" remote="github" revision="12.1" />
-    
 </manifest>
 
