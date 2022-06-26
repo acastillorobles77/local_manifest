@@ -12,7 +12,7 @@
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="twelve" />
     <project path="vendor/gapps" name="crdroidandroid/android_vendor_gapps.git" remote="gitlab2" revision="12.1" />
-    <!-- <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace.git" remote="github" revision="12.1" /> -->
+    <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace.git" remote="github" revision="12.1" />
 
     <!-- Remove unnecessary apps -->
     <remove-project name="LineageOS/android_packages_apps_Updater" />
