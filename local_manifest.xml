@@ -14,7 +14,7 @@
     <project path="vendor/gapps" name="crdroidandroid/android_vendor_gapps.git" remote="gitlab2" revision="12.1" />
 
     <!-- Replace some repos -->
-    <remove-project name="syberia-project/platform_device_qcom_sepolicy_vndr" />
+    <remove-project name="platform_device_qcom_sepolicy_vndr" />
     <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr.git" remote="github" revision="sapphire" />
 
 </manifest>
