@@ -25,7 +25,6 @@
     <remote-project name="LineageOS/android_packages_apps_Gallery2" />
     <remote-project name="LineageOS/android_packages_apps_Jelly" />
     <remote-project name="LineageOS/android_packages_apps_Messaging" />
-    <remove-project name="LineageOS/android_packages_apps_StorageManager" />
     <!-- <remote-project name="LineageOS/android_packages_apps_Trebuchet" /> -->
 
     <!-- Replace some repos -->
