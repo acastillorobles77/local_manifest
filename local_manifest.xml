@@ -18,13 +18,14 @@
     <remote-project name="LineageOS/android_packages_apps_Contacts" />
     <remote-project name="LineageOS/android_packages_apps_DeskClock" />
     <remote-project name="LineageOS/android_packages_apps_Dialer" />
-    <!-- <remote-project name="LineageOS/android_packages_apps_DocumentsUI" /> -->
+    <remote-project name="LineageOS/android_packages_apps_DocumentsUI" />
     <remote-project name="LineageOS/android_packages_apps_Etar" />
     <remote-project name="LineageOS/android_packages_apps_ExactCalculator" />
     <remote-project name="LineageOS/android_packages_apps_Gallery2" />
     <remote-project name="LineageOS/android_packages_apps_Jelly" />
     <remote-project name="LineageOS/android_packages_apps_Messaging" />
-    <!-- <remote-project name="LineageOS/android_packages_apps_Trebuchet" /> -->
+    <remote-project name="LineageOS/android_packages_apps_Trebuchet" />
+    <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
 
     <!-- Replace some repos -->
     <remove-project name="LineageOS/android_packages_apps_Updater" />
