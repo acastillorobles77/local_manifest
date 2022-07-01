@@ -25,7 +25,6 @@
     <remote-project name="LineageOS/android_packages_apps_Jelly" />
     <remote-project name="LineageOS/android_packages_apps_Messaging" />
     <remote-project name="LineageOS/android_packages_apps_Trebuchet" />
-    <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
 
     <!-- Replace some repos -->
     <remove-project name="LineageOS/android_packages_apps_Updater" />
