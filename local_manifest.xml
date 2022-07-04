@@ -24,7 +24,7 @@
     <remove-project name="LineageOS/android_packages_apps_Gallery2" />
     <remove-project name="LineageOS/android_packages_apps_Jelly" />
     <remove-project name="LineageOS/android_packages_apps_Messaging" />
-    <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
+    <!-- <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" /> -->
     <!-- <remote-project name="LineageOS/android_packages_apps_Trebuchet" /> -->
 
     <!-- Replace some repos -->
