@@ -15,15 +15,16 @@
     <!-- <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace.git" remote="github" revision="12.1" /> -->
 
     <!-- Remove unnecessary apps -->
-    <remote-project name="LineageOS/android_packages_apps_Contacts" />
-    <remote-project name="LineageOS/android_packages_apps_DeskClock" />
-    <remote-project name="LineageOS/android_packages_apps_Dialer" />
-    <!-- <remote-project name="LineageOS/android_packages_apps_DocumentsUI" /> -->
-    <remote-project name="LineageOS/android_packages_apps_Etar" />
-    <remote-project name="LineageOS/android_packages_apps_ExactCalculator" />
-    <remote-project name="LineageOS/android_packages_apps_Gallery2" />
-    <remote-project name="LineageOS/android_packages_apps_Jelly" />
-    <remote-project name="LineageOS/android_packages_apps_Messaging" />
+    <remove-project name="LineageOS/android_packages_apps_Contacts" />
+    <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+    <remove-project name="LineageOS/android_packages_apps_Dialer" />
+    <!-- <remove-project name="LineageOS/android_packages_apps_DocumentsUI" /> -->
+    <remove-project name="LineageOS/android_packages_apps_Etar" />
+    <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+    <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+    <remove-project name="LineageOS/android_packages_apps_Jelly" />
+    <remove-project name="LineageOS/android_packages_apps_Messaging" />
+    <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence"/>
     <!-- <remote-project name="LineageOS/android_packages_apps_Trebuchet" /> -->
 
     <!-- Replace some repos -->
