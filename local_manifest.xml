@@ -34,8 +34,8 @@
     <project path="frameworks/base" name="acastillorobles77/android_frameworks_base_lineage.git" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="acastillorobles77/android_packages_apps_Settings_lineage.git" groups="pdk-fs" remote="github" revision="lineage-19.1" /> -->
-    <!-- <remove-project name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/lineage" name="acastillorobles77/android_vendor_lineage.git" remote="github" revision="lineage-19.1" /> -->
+    <remove-project name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="acastillorobles77/android_vendor_lineage.git" remote="github" revision="lineage-19.1" />
     
 </manifest>
 
