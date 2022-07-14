@@ -15,11 +15,11 @@
     <!-- <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace.git" remote="github" revision="12.1" /> -->
 
     <!-- Remove unnecessary apps -->
-    <remove-project name="LineageOS/android_packages_apps_Contacts" />
+    <!-- <remove-project name="LineageOS/android_packages_apps_Contacts" /> -->
     <remove-project name="LineageOS/android_packages_apps_DeskClock" />
     <remove-project name="LineageOS/android_packages_apps_Dialer" />
     <!-- <remove-project name="LineageOS/android_packages_apps_DocumentsUI" /> -->
-    <remove-project name="LineageOS/android_packages_apps_Etar" />
+    <!-- <remove-project name="LineageOS/android_packages_apps_Etar" /> -->
     <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
     <remove-project name="LineageOS/android_packages_apps_Gallery2" />
     <remove-project name="LineageOS/android_packages_apps_Jelly" />
