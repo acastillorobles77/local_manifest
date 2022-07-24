@@ -11,7 +11,7 @@
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="twelve" />
-    <project path="vendor/gms" name="Project-Awaken/android_vendor_gms.git" remote="gitlab2" revision="12.1" />
+    <project path="vendor/google/gms" name="acastillorobles77/vendor_google_gms.git" remote="gitlab2" revision="frico_mr1-release" />
     
     <!-- Remove unnecessary apps -->
     <!-- <remove-project name="LineageOS/android_packages_apps_Contacts" /> -->
