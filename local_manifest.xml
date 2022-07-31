@@ -7,7 +7,7 @@
     <!-- Trees -->
     <project path="device/xiaomi/vayu" name="acastillorobles77/android_device_xiaomi_vayu.git" remote="github" revision="lineage-19.x-gapps" />
     <project path="kernel/xiaomi/vayu" name="acastillorobles77/android_kernel_xiaomi_vayu_arrow.git" remote="github" revision="arrow-12.0" />
-    <project path="vendor/xiaomi/vayu" name="acastillorobles77/android_vendor_xiaomi_vayu.git" remote="github" revision="arrow-12.0" />
+    <project path="vendor/xiaomi/vayu" name="acastillorobles77/android_vendor_xiaomi_vayu.git" remote="github" revision="arrow-12.1" />
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="twelve" />
