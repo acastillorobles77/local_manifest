@@ -4,6 +4,6 @@
     <!-- Trees -->
     <project path="device/timovi/Insignia_Delta3" name="acastillorobles77/android_device_timovi_Insignia_Delta3.git" remote="github" revision="main" />
     <project path="vendor/timovi/Insignia_Delta3" name="acastillorobles77/android_vendor_timovi_Insignia_Delta3.git" remote="github" revision="main" />
-    
+     
 </manifest>
 
