@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Remotes -->
+    <remote name="gitlab2" fetch="https://gitlab.com/" />
+
     <!-- Trees -->
     <project path="device/xiaomi/vayu" name="acastillorobles77/android_device_xiaomi_vayu.git" remote="github" revision="bliss-13.0" />
     <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
@@ -8,6 +11,7 @@
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab2" revision="master" clone-depth="1" />
 
 </manifest>
 
