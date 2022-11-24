@@ -9,8 +9,5 @@
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
 
-    <!-- Remove unnecessary apps -->
-    <remove-project name="LineageOS/android_packages_apps_Updater" />
-
 </manifest>
 
