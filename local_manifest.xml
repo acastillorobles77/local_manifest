@@ -7,7 +7,7 @@
     <project path="vendor/xiaomi/vayu" name="ArrowOS-Devices/android_vendor_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
 
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
+    <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi.git" remote="github" revision="topaz" />
 
 </manifest>
 
