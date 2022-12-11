@@ -2,16 +2,15 @@
 <manifest>
     
     <!-- Remotes -->
-    <remote name="gitlab2" fetch="https://gitlab.com/" />
+    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Trees -->
-    <project path="device/xiaomi/vayu" name="acastillorobles77/android_device_xiaomi_vayu.git" remote="github" revision="pe-13.0" />
+    <project path="device/xiaomi/vayu" name="acastillorobles77/android_device_xiaomi_vayu.git" remote="github" revision="pixelos-13.0" />
     <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
     <project path="vendor/xiaomi/vayu" name="ArrowOS-Devices/android_vendor_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
-    <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv.git" remote="github" revision="main" />
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab2" revision="master" clone-depth="1" />
 
