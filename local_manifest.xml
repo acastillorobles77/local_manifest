@@ -12,7 +12,7 @@
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab2" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
 </manifest>
 
