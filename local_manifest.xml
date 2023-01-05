@@ -4,6 +4,7 @@
     <!-- Remotes -->
     <remote name="gitlab" fetch="https://gitlab.com/" />
     <remote name="me" fetch="https://github.com/acastillorobles77" />
+    <remote name="BlissRoms-gitlab" fetch="https://gitlab.com/BlissLabs/BlissRoms" />
     <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" />
 
     <!-- Trees -->
@@ -13,18 +14,13 @@
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
-    <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService.git" remote="github" revision="thirteen" />
-    <project path="external/faceunlock" name="external_faceunlock.git" remote="pixel-gitlab" revision="thirteen" />
     <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv.git" remote="github" revision="main" />
+    <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" revision="typhoon" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
     <!-- Replace some repos -->
-    <remove-project name="LineageOS/android_frameworks_base" />
-    <project path="frameworks/base" name="android_frameworks_base-lineage.git" remote="me" revision="lineage-20.0" />
-    <remove-project name="LineageOS/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings-lineage.git" remote="me" revision="lineage-20.0" />
     <remove-project name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/lineage" name="android_vendor_lineage.git" remote="me" revision="lineage-20.0" />
+    <project path="vendor/lineage" name="android_vendor_lineage" remote="me" revision="lineage-20.0" />
 
 </manifest>
 
