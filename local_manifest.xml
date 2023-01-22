@@ -15,8 +15,8 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
     <!-- Replace some repos -->
-    <remove-project name="android_device_qcom_sepolicy" />
-    <project path="device/qcom/sepolicy" name="PixelExperience/device_qcom_sepolicy.git" remote="github" revision="thirteen" />
+    <!-- <remove-project name="android_device_qcom_sepolicy" />
+    <project path="device/qcom/sepolicy" name="PixelExperience/device_qcom_sepolicy.git" remote="github" revision="thirteen" /> -->
 
 </manifest>
 
