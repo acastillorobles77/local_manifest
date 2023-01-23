@@ -19,8 +19,8 @@
     <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy.git" remote="github" revision="topaz" />
     <remove-project name="external/boringssl" />
     <project path="external/boringssl" name="PixelExperience/external_boringssl.git" remote="github" revision="thirteen" />
-    <remove-project name="android_system_security" />
-    <project path="system/security" name="PixelExperience/system_security.git" remote="github" revision="thirteen" />
+    <!-- <remove-project name="android_system_security" />
+    <project path="system/security" name="PixelExperience/system_security.git" remote="github" revision="thirteen" /> -->
 
 </manifest>
 
