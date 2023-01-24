@@ -18,7 +18,7 @@
     <remove-project name="android_device_qcom_sepolicy" />
     <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy.git" remote="github" revision="topaz" />
     <remove-project name="platform/external/boringssl" />
-    <project path="external/boringssl" name="acastillorobles77/platform_external_boringssl.git" remote="github" revision="refs/tags/android-13.0.0_r14" groups="pdk" />
+    <project path="external/boringssl" name="acastillorobles77/platform_external_boringssl.git" remote="github" revision="android13.0.0_r14" groups="pdk" />
 
 </manifest>
 
