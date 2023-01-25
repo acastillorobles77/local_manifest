@@ -2,26 +2,28 @@
 <manifest>
     
     <!-- Remotes -->
+    <remote name="aospa" fetch="https://github.com/AOSPA" />
+    <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
     <remote name="gitlab" fetch="https://gitlab.com/" />
-    <remote name="los-github" fetch="https://github.com/LineageOS/" />
+    <remote name="los" fetch="https://github.com/LineageOS" />
+    <remote name="me" fetch="https://github.com/acastillorobles77" />
 
     <!-- Trees -->
-    <project path="device/xiaomi/vayu" name="acastillorobles77/device_xiaomi_vayu.git" remote="github" revision="pixelos-13.0" />
-    <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
-    <project path="vendor/xiaomi/vayu" name="acastillorobles77/vendor_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="pixelos-13.0" />
+    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.0" />
+    <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu.git" remote="me" revision="arrow-13.0" />
 
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi.git" remote="github" revision="topaz" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="aospa" revision="topaz" />
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
     <!-- Replace some repos -->
     <remove-project name="android_device_qcom_sepolicy" />
-    <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy.git" remote="github" revision="topaz" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy.git" remote="aospa" revision="topaz" />
     <remove-project name="packages_modules_Bluetooth" />
-    <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth.git" remote="los-github" revision="lineage-20.0" />
+    <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth.git" remote="los" revision="lineage-20.0" />
     <remove-project name="platform/external/boringssl" />
-    <project path="external/boringssl" name="acastillorobles77/platform_external_boringssl.git" remote="github" revision="android13.0.0_r14" groups="pdk" />
+    <project path="external/boringssl" name="platform_external_boringssl.git" remote="me" revision="android13.0.0_r14" groups="pdk" />
 
 </manifest>
-
