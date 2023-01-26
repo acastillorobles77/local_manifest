@@ -2,19 +2,26 @@
 <manifest>
 
     <!-- Remotes -->
+    <remote name="aospa" fetch="https://github.com/AOSPA" />
+    <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
     <remote name="gitlab" fetch="https://gitlab.com/" />
+    <remote name="los" fetch="https://github.com/LineageOS" />
     <remote name="me" fetch="https://github.com/acastillorobles77" />
     <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" />
 
     <!-- Trees -->
     <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="bliss-13.0" />
-    <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
+    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.0" />
     <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu.git" remote="me" revision="arrow-13.0" />
 
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="aospa" revision="topaz" />
     <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv.git" remote="github" revision="main" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
+
+    <!-- Replace some repos -->
+    <remove-project name="platform/system/libhidl" />
+    <project path="system/libhidl" name="android_system_libhidl.git" remote="los" revision="lineage-20.0" groups="pdk" />
 
 </manifest>
 
