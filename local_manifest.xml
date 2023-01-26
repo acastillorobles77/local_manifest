@@ -20,6 +20,10 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
     <!-- Replace some repos -->
+    <remove-project name="android_hardware_lineage_compat" />
+    <project path="hardware/lineage/compat" name="hardware_lineage_compat.git" remote="me" revision="lineage-20.0" />
+    <remove-project name="android_hardware_qcom-caf_wlan" />
+    <project path="hardware/qcom-caf/wlan" name="Pixel experience/hardware_qcom-caf_wlan.git" remote="github" revision="thirteen" />
     <remove-project name="platform/system/libhidl" />
     <project path="system/libhidl" name="android_system_libhidl.git" remote="los" revision="lineage-20.0" groups="pdk" />
     <remove-project name="platform_vendor_bliss" />
