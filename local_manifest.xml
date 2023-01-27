@@ -2,7 +2,6 @@
 <manifest>
     
     <!-- Remotes -->
-    <remote name="aosp" fetch="https://android.googlesource.com/" />
     <remote name="aospa" fetch="https://github.com/AOSPA" />
     <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
     <remote name="blissroms" fetch="https://github.com/BlissRoms" />
