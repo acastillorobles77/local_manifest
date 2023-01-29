@@ -16,6 +16,9 @@
 
     <!-- Addons -->
     <project path="external/pandora/avatar" name="platform/external/pandora/avatar" remote="aosp" revision="refs/tags/android-13.0.0_r20" groups="pdk" />
+    <project path="external/pandora/bt-test-interfaces" name="platform/external/pandora/bt-test-interfaces" remote="aosp" revision="refs/tags/android-13.0.0_r20" groups="pdk" />
+    <project path="external/pandora/mmi2grpc" name="platform/external/pandora/mmi2grpc" remote="aosp" revision="refs/tags/android-13.0.0_r20" groups="pdk" />
+    <project path="external/python/bumble" name="platform/external/python/bumble" remote="aosp" revision="refs/tags/android-13.0.0_r20" groups="pdk" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="aospa" revision="topaz" />
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
