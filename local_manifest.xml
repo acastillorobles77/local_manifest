@@ -8,6 +8,7 @@
     <remote name="gitlab" fetch="https://gitlab.com/" />
     <remote name="los" fetch="https://github.com/LineageOS" />
     <remote name="me" fetch="https://github.com/acastillorobles77" />
+    <remote name="me-gitlab" fetch="https://gitlab.com/acastillorobles77" />
 
     <!-- Trees -->
     <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="pixelos-13.0" />
@@ -24,11 +25,7 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
     <!-- Replace some repos -->
-    <!-- <remove-project name="android_device_qcom_sepolicy" />
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy.git" remote="aospa" revision="topaz" />
-    <remove-project name="packages_modules_Bluetooth" />
-    <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth.git" remote="blissroms" revision="typhoon" />
-    <remove-project name="platform/external/boringssl" />
-    <project path="external/boringssl" name="platform_external_boringssl.git" remote="me" revision="android13.0.0_r14" groups="pdk" /> -->
+    <remove-project name="vendor_gms" />
+    <project path="vendor/gms" name="vendor_gms.git" remote="me-gitlab" revision="thirteen" />
 
 </manifest>
