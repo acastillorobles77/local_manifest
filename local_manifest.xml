@@ -16,7 +16,7 @@
     <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.0" />
 
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="pixel-github" revision="thirteen" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="los" revision="lineage-20" />
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
