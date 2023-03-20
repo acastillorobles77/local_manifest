@@ -2,17 +2,23 @@
 <manifest>
     
     <!-- Remotes -->
+    <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
     <remote name="gitlab" fetch="https://gitlab.com/" />
+    <remote name="me" fetch="https://github.com/acastillorobles77" />
 
     <!-- Trees -->
-    <project path="device/xiaomi/vayu" name="acastillorobles77/device_xiaomi_vayu.git" remote="github" revision="pe-13.0" />
-    <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
-    <project path="vendor/xiaomi/vayu" name="acastillorobles77/vendor_xiaomi_vayu.git" remote="github" revision="arrow-13.0" />
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="pe-13.0" />
+    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.0" />
+    <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.0" />
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
+
+    <!-- Replace some repos -->
+    <remove-project name="vendor_gms" />
+    <project path="vendor/gms" name="acastillorobles77/pixel_vendor_gms.git" remote="gitlab" revision="thirteen" clone-depth="1" />
 
 </manifest>
 
