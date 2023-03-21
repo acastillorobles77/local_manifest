@@ -3,7 +3,7 @@
     
     <!-- Remotes -->
     <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
-    <remote name="gitlab" fetch="https://gitlab.com/" />
+    <remote name="gitlab2" fetch="https://gitlab.com/" />
     <remote name="me" fetch="https://github.com/acastillorobles77" />
 
     <!-- Trees -->
@@ -18,7 +18,7 @@
 
     <!-- Replace some repos -->
     <remove-project name="vendor_gms" />
-    <project path="vendor/gms" name="acastillorobles77/pixel_vendor_gms.git" remote="gitlab" revision="thirteen" clone-depth="1" />
+    <project path="vendor/gms" name="acastillorobles77/pixel_vendor_gms.git" remote="gitlab2" revision="thirteen" clone-depth="1" />
 
 </manifest>
 
