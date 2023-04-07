@@ -13,9 +13,14 @@
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
+    <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace.git" remote="github" revision="13" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
     <!-- Replace some repos -->
+    <remove-project name="frameworks_base" />
+    <project path="frameworks/base" name="frameworks_base-pe.git" remote="me" revision="thirteen-plus" />
+    <remove-project name="packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings-pe.git" remote="me" revision="thirteen-plus" />
     <remove-project name="vendor_gms" />
     <project path="vendor/gms" name="acastillorobles77/pixel_vendor_gms.git" remote="gitlab2" revision="thirteen" clone-depth="1" />
 
