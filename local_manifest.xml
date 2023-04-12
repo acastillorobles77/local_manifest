@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+   <!-- Remotes -->
+   <remote name="me" fetch="https://github.com/acastillorobles77" />
+
    <!-- Trees -->
-   <project path="device/timovi/Insignia_Delta3" name="acastillorobles77/android_device_timovi_Insignia_Delta3.git" remote="github" revision="ResurrectionRemix" />
-   <project path="vendor/timovi/Insignia_Delta3" name="acastillorobles77/android_vendor_timovi_Insignia_Delta3.git" remote="github" revision="main" />
+   <project path="device/timovi/Insignia_Delta3" name="android_device_timovi_Insignia_Delta3.git" remote="me" revision="main" />
+   <project path="vendor/timovi/Insignia_Delta3" name="android_vendor_timovi_Insignia_Delta3.git" remote="me" revision="main" />
 
 </manifest>
