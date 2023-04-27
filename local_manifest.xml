@@ -21,7 +21,7 @@
 
     <!-- Replace some repos -->
     <remove-project name="platform_vendor_bliss" />
-    <project path="vendor/bliss" name="platform_vendor_bliss.git" remote="me" revision="typhoon" />
+    <project path="vendor/bliss" name="platform_vendor_bliss.git" remote="me" revision="typhoon-qpr2" />
 
 </manifest>
 
