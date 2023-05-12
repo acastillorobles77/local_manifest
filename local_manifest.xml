@@ -21,8 +21,8 @@
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
 
-    <!-- Replace some repos -->
+    <!-- Replace some repos 
     <remove-project name="vendor_gms" />
-    <project path="vendor/gms" name="vendor_gms.git" remote="me-gitlab" revision="thirteen" />
+    <project path="vendor/gms" name="vendor_gms.git" remote="me-gitlab" revision="thirteen" /> -->
 
 </manifest>
