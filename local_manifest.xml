@@ -20,6 +20,7 @@
     <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="pixelos" revision="thirteen" />
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab2" revision="master" clone-depth="1" />
+    <project path="vendor/xiaomi" name="crdroidandroid/proprietary_vendor_xiaomi.git" remote="gitlab2" revision="13.0" />
 
     <!-- Replace some repos 
     <remove-project name="vendor_gms" />
