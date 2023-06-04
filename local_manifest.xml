@@ -21,8 +21,8 @@
     <project path="frameworks/base" name="pixel_frameworks_base.git" remote="me" revision="thirteen-plus" />
     <remove-project name="packages_apps_Settings" />
     <project path="packages/apps/Settings" name="pixel_packages_apps_Settings.git" remote="me" revision="thirteen-plus" />
-    <remove-project name="vendor_gms" />
-    <project path="vendor/gms" name="acastillorobles77/pixel_vendor_gms.git" remote="gitlab2" revision="thirteen" clone-depth="1" />
+    <!-- <remove-project name="vendor_gms" />
+    <project path="vendor/gms" name="acastillorobles77/pixel_vendor_gms.git" remote="gitlab2" revision="thirteen" clone-depth="1" /> -->
 
 </manifest>
 
