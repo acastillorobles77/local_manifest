@@ -15,6 +15,7 @@
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi.git" remote="github" revision="thirteen" />
     <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace.git" remote="github" revision="13" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi.git" remote="me-gitlab" revision="13.0-miuicamera" />
 
     <!-- Replace some repos -->
     <remove-project name="frameworks_base" />
