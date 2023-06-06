@@ -5,6 +5,7 @@
     <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
     <remote name="gitlab2" fetch="https://gitlab.com/" />
     <remote name="me" fetch="https://github.com/acastillorobles77" />
+    <remote name="me-gitlab" fetch="https://gitlab.com/acastillorobles77" />
 
     <!-- Trees -->
     <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="pe-13.0" />
