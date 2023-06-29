@@ -25,5 +25,7 @@
     <!-- Replace some repos 
     <remove-project name="vendor_gms" />
     <project path="vendor/gms" name="vendor_gms.git" remote="me-gitlab" revision="thirteen" /> -->
+    <remove-project name="vendor_google_pixel" />
+    <project path="vendor/google/pixel" name="vendor_google_pixel.git" remote="me" revision="thirteen" />
 
 </manifest>
