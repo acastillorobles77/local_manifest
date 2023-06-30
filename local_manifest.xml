@@ -13,8 +13,8 @@
 
     <!-- Trees -->
     <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="pixelos-13.0" />
-    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.0" />
-    <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu.git" remote="me" revision="arrow-13.0" />
+    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.1" />
+    <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu.git" remote="me" revision="arrow-13.1" />
 
     <!-- Addons -->
     <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="pixelos" revision="thirteen" />
