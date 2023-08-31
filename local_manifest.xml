@@ -5,7 +5,7 @@
    <remote name="me" fetch="https://github.com/acastillorobles77" />
 
    <!-- Trees -->
-   <project path="device/timovi/Insignia_Delta3" name="android_device_timovi_Insignia_Delta3.git" remote="me" revision="main" />
-   <project path="vendor/timovi/Insignia_Delta3" name="vendor_timovi_Insignia_Delta3.git" remote="me" revision="main" />
+   <project path="device/ghia/GA7133" name="android_device_ghia_GA7133.git" remote="me" revision="lineage-18.1" />
+   <project path="vendor/ghia/GA7133" name="android_vendor_ghia_GA7133.git" remote="me" revision="lineage-18.1" />
 
 </manifest>
