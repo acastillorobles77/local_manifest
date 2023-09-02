@@ -8,4 +8,8 @@
    <project path="device/ghia/GA7133" name="android_device_ghia_GA7133.git" remote="me" revision="lineage-18.1" />
    <project path="vendor/ghia/GA7133" name="android_vendor_ghia_GA7133.git" remote="me" revision="lineage-18.1" />
 
+   <!-- Replace some repos -->
+   <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm" />
+   <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm.git" remote="github" revision="backup/main_20230314" />
+
 </manifest>
