@@ -3,29 +3,22 @@
     
     <!-- Remotes -->
     <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
-    <remote name="blissroms" fetch="https://github.com/BlissRoms" />
+    <remote name="evox" fetch="https://github.com/Evolution-X" />
     <remote name="gitlab2" fetch="https://gitlab.com/" />
     <remote name="los" fetch="https://github.com/LineageOS" />
     <remote name="me" fetch="https://github.com/acastillorobles77" />
     <remote name="me-gitlab" fetch="https://gitlab.com/acastillorobles77" />
     <remote name="pixel-github" fetch="https://github.com/PixelExperience" />
-    <remote name="pixelos" fetch="https://github.com/PixelOS-AOSP" />
 
     <!-- Trees -->
-    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="pixelos-13.0" />
-    <!-- <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.1" /> -->
-    <project path="kernel/xiaomi/vayu" name="elizabethangelalorenza/kernel_xiaomi_vayu.git" remote="github" revision="main" />
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="evolution-13.0" />
+    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.1" />
+    <!-- <project path="kernel/xiaomi/vayu" name="elizabethangelalorenza/kernel_xiaomi_vayu.git" remote="github" revision="main" /> -->
     <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu.git" remote="me" revision="arrow-13.1" />
 
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="pixelos" revision="thirteen" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="evox" revision="tiramisu" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab2" revision="master" clone-depth="1" />
     <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi.git" remote="me-gitlab" revision="13.0-miuicamera" />
-
-    <!-- Replace some repos 
-    <remove-project name="vendor_gms" />
-    <project path="vendor/gms" name="vendor_gms.git" remote="me-gitlab" revision="thirteen" />
-    <remove-project name="vendor_google_pixel" />
-    <project path="vendor/google/pixel" name="vendor_google_pixel.git" remote="me" revision="thirteen" /> -->
 
 </manifest>
