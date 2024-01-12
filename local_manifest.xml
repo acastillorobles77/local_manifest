@@ -6,7 +6,7 @@
     <remote name="me" fetch="https://github.com/acastillorobles77" />
 
     <!-- Trees -->
-    <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu.git" remote="me" revision="arrow-14.0" />
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="arrow-14.0" />
     <project path="kernel/xiaomi/vayu" name="Bagualisson/kernel_xiaomi_vayu.git" remote="github" revision="fourteen" />
     <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu.git" remote="github" revision="arrow-13.1" />
 
